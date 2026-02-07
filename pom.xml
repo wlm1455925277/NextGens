@@ -133,6 +133,10 @@
             <name>FancyPlugins Repository</name>
             <url>https://repo.fancyplugins.de/releases</url>
         </repository>
+        <repository>
+            <id>songoda-minecraft-plugins</id>
+            <url>https://repo.songoda.com/repository/minecraft-plugins/</url>
+        </repository>
     </repositories>
 
     <dependencyManagement>
@@ -234,9 +238,9 @@
         </dependency>
         <!-- FabledSkyblock -->
         <dependency>
-            <groupId>com.craftaro</groupId>
+            <groupId>com.songoda</groupId>
             <artifactId>FabledSkyBlock</artifactId>
-            <version>3.0.4-SNAPSHOT</version>
+            <version>4.2.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <!-- PlotSquared -->
